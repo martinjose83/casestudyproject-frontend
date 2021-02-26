@@ -3,6 +3,7 @@
 /workspace.xml
 # Datasource local storage ignored files
 /../../../../:\React\casestudy_project\.idea/dataSources/
-/dataSources.local.xml
+/../../casestudy_project/.idea/misc.xml
+/casestudy_project.iml
 # Editor-based HTTP Client requests
 /httpRequests/
