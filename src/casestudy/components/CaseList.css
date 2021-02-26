@@ -1,0 +1,18 @@
+.cases-list {
+    list-style: none;
+    margin: 0 auto;
+    padding: 30px;
+    width: 98%;
+    display: flex;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    text-decoration: none;
+    justify-content: center;
+    background-color: transparent;
+    flex-wrap: wrap;
+}
+
+.case-item-color{
+    color: #161616;
+}
+

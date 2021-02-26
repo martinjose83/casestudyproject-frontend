@@ -1,0 +1,65 @@
+.text-color-h5 {
+    font-size: 18px;
+    color: #ffffff ;
+    font-family: IBMPlexSans-Regular, sans-serif;
+}
+
+.text-color-h1{
+    font-family: IBMPlexSans-SemiBold, sans-serif;
+    font-size: 36px;
+    color: #ffffff ;
+}
+
+.text-color-h2 {
+    color:#393939;
+    font-size: 30px;
+}
+
+.data{
+    color: white;
+    font-weight: normal;
+}
+.ibm-main-div1 {
+    background-color: #393939;
+}
+
+.ibm-div-padding2{
+    padding-bottom:30px
+}
+
+.ibm-div2{
+    background-color: #F4F4F4 ;
+}
+
+.ibm-div-padding{
+    padding: 50px;
+}
+
+.blue-middle-div{
+    height: 10vh;
+    background-color: #0F62FE;
+    padding: 13px 20px 20px 20px;
+}
+
+#para-padding{
+    padding-left: 50px;
+}
+
+.export-btn-indiView{
+    background-color: #6F6F6F;
+    border:2px solid #9d9da0;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 50px;
+}
+
+.btn-section-indiView{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h3-back{
+    color: white;
+}

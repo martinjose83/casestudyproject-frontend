@@ -1,0 +1,93 @@
+.main-navigation__menu-btn {
+  width: 3rem;
+  height: 3rem;
+  background: transparent;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.main-navigation__menu-btn span {
+  display: block;
+  width: 3rem;
+  height: 2px;
+  background: #cbc3c3;
+}
+
+.main-navigation__title {
+  color: #161616;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: .1em;
+  font-family:  "Roboto", sans-serif;
+}
+
+h1 {
+  color: #8d9091;
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  letter-spacing: .05em;
+  font-family:  "Roboto", sans-serif;
+}
+
+.title{
+  color: #ffffff;
+  /*text-transform: uppercase;*/
+  font-weight: normal;
+  font-size: 36px;
+}
+
+.main-navigation__title a {
+  text-decoration: none;
+  /*color: #b8e3e9;*/
+}
+
+.main-navigation__header-nav {
+  display: none;
+}
+
+.main-navigation__drawer-nav {
+  height: 100%;
+}
+
+.line-sep{
+  color: #C6C6C6;
+  align-items: center;
+  padding-left: 0px;
+  font-size: xxx-large;
+
+}
+
+@font-face {
+  font-family: "IBMPlexSans-SemiBold";
+  src: local("IBMPlexSans-SemiBold-"),url(../../fonts/IBMPlexSans-SemiBold.ttf) format('truetype');
+}
+
+.head-title{
+  font-family: IBMPlexSans-SemiBold;
+  color: #ffffff;
+  font-size: 36px;
+}
+
+@media (min-width: 768px) {
+  .main-navigation__menu-btn {
+    display: none;
+  }
+
+  .main-navigation__header-nav {
+    display: block;
+    /*text-align: left;*/
+  }
+}
+
+@media (max-width: 740px) {
+  .line-sep{
+    display:none;
+
+  }
+}

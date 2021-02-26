@@ -1,0 +1,47 @@
+
+.toggleBtns {
+    display:flex;
+    flex-wrap: nowrap;
+    background-color: #7a7b7c;
+}
+
+.btnsDiv{
+    width: 50%;
+}
+
+.usercasesBtn {
+    background-color: gray;
+    height: 3rem;
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 18px;
+    justify-content: center;
+}
+
+
+#draftBtn:active{
+    background-color: #0e5efd;
+}
+
+#draftBtn:hover{
+    background-color: #0e5efd;
+}
+
+#publishedBtn:hover{
+    background-color: #0e5efd;
+
+}
+#publishedBtn:active{
+    background-color: #0e5efd;
+}
+
+@media (max-width: 740px) {
+    .usercasesBtn{
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+}

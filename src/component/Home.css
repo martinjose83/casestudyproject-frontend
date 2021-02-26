@@ -1,0 +1,40 @@
+.ibm-home-div {
+    min-height: 100vh;
+    background-image: url(search_image.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+.search-page {
+    margin-top:10%
+}
+
+.input-search{
+
+    margin: auto;
+    width: 60%;
+}
+.control-group-filter {
+    margin-top: 10%;
+}
+.controls-filter {
+    margin-right: 5%;
+}
+.row-home {
+    margin: auto;
+    width: 60%;
+}
+
+
+.form-control-filter{
+    border-radius: 0;
+}
+
+
+
+
+
+
+
